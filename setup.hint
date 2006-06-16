@@ -1,0 +1,6 @@
+category: Perl Graphics
+requires: cygwin perl libgd2
+sdesc: "Perl bindings for libgd2"
+ldesc: "This is a autoloadable interface module for libgd, a popular 
+library for creating and manipulating PNG files.  With this library you 
+can create PNG images on the fly or modify existing files."
