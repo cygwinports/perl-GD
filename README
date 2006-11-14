@@ -5,17 +5,17 @@ for creating and manipulating PNG files.  With this library you can
 create PNG images on the fly or modify existing files.
 
 Runtime requirements:
-  cygwin-1.5.20-1 (>=20060604)
+  cygwin-1.5.21-2
   libgd2-2.0.33-1
   perl-5.8.7-5
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.20-1 (>=20060604)
-  binutils-20050610-1
-  cygport-0.2.0-1
+  cygwin-1.5.21-2
+  binutils-20060817-1
+  cygport-0.2.6-1
   gcc-core-3.4.4-1
-  make-3.80-1
+  make-3.81-1
   perl-5.8.7-5
 
 Canonical homepage:
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-GD-2.34-1-src.tar.bz2
+  unpack perl-GD-2.35-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-GD-2.34-1.cygport all
+  cygport ./perl-GD-2.35-1.cygport all
 
 This will create:
-  /usr/src/perl-GD-2.34-1-src.tar.bz2
-  /usr/src/perl-GD-2.34-1.tar.bz2
+  /usr/src/perl-GD-2.35-1-src.tar.bz2
+  /usr/src/perl-GD-2.35-1.tar.bz2
 
 -------------------------------------------
 
@@ -54,9 +54,9 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/GD/autosplit.ix
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/GD/libGD.dll.a
   /usr/lib/perl5/vendor_perl/5.8/cygwin/qd.pl
-  /usr/share/doc/Cygwin/perl-GD-2.34.README
-  /usr/share/doc/perl-GD-2.34/ChangeLog
-  /usr/share/doc/perl-GD-2.34/README
+  /usr/share/doc/Cygwin/perl-GD-2.35.README
+  /usr/share/doc/perl-GD-2.35/ChangeLog
+  /usr/share/doc/perl-GD-2.35/README
   /usr/share/man/man1/bdf2gdfont.pl.1.gz
   /usr/share/man/man3/GD.3pm.gz
   /usr/share/man/man3/GD.Image.3pm.gz
@@ -68,6 +68,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.35-1 -----
+Version bump.
 
 ----- version 2.34-1 -----
 Version bump.
