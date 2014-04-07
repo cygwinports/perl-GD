@@ -2,7 +2,7 @@ CPAN_AUTHOR=lds
 inherit perl
 
 NAME="perl-GD"
-VERSION=2.35
+VERSION=2.53
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl bindings for libgd"
