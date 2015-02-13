@@ -3,7 +3,7 @@ inherit perl
 
 NAME="perl-GD"
 VERSION=2.53
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl bindings for libgd"
 DESCRIPTION="This is a autoloadable interface module for libgd, a popular
