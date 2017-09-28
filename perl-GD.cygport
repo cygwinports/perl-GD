@@ -1,11 +1,17 @@
-CPAN_AUTHOR=lds
+CPAN_AUTHOR=rurban
 inherit perl
 
 NAME="perl-GD"
-VERSION=2.53
-RELEASE=3
+VERSION=2.66
+RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl bindings for libgd"
 DESCRIPTION="This is a autoloadable interface module for libgd, a popular
 library for creating and manipulating PNG files.  With this library you
 can create PNG images on the fly or modify existing files."
+
+src_compile() {
+	lndirs
+	cd ${B}
+	perl_compile < /dev/null
+}
